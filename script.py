@@ -65,7 +65,7 @@ for treebank in conditions:
 	print(f"Reading treebank {treebank}...")
 	source_dir = f"{source_path}/{treebank}/"
 	destination_dir = f"{destination_path}/{treebank}"
-	pathlib.Path(destination_path).mkdir(parents=True, exist_ok=True)
+	pathlib.Path(destination_dir).mkdir(parents=True, exist_ok=True)
 
 
 	for filename in pathlib.Path(source_dir).glob("*.conllu"):
