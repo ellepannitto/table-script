@@ -68,11 +68,11 @@ for treebank in conditions:
 	pathlib.Path(destination_path).mkdir(parents=True, exist_ok=True)
 
 
-	for filename in pathlib.Path(source_path).glob("*.conllu"):
+	for filename in pathlib.Path(source_dir).glob("*.conllu"):
 		print(f"Reading file {filename}...")
 		file_stem = filename.stem
 		with open(filename) as fin, \
-			open(pathlib.Path(destination_path).joinpath(f"{file_stem}.selected.conllu"), "w") as fout:
+			open(pathlib.Path(destination_dir).joinpath(f"{file_stem}.selected.conllu"), "w") as fout:
 
 			fun1, fun2 = conditions[treebank]
 			sentences = conllu.parse_incr(fin)
