@@ -20,7 +20,8 @@ for treebank in conditions:
 
 		file_stem = filename.stem
 
-		with open(filename) as fin, open(pathlib.Path(destination_path).joinpath(f"{file_stem}.selected.conllu"), "w") as fout:
+		with open(filename) as fin, \
+			open(pathlib.Path(destination_path).joinpath(f"{file_stem}.selected.conllu"), "w") as fout:
 
 			fun1, fun2 = conditions[treebank]
 			sentences = conllu.parse_incr(fin)
@@ -39,6 +40,3 @@ for treebank in conditions:
 				else:
 					if condition:
 						print(sentence.serialize().strip(), file=fout)
-
-		if condition:
-			print(sentence.serialize().strip(), file=fout)
