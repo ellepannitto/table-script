@@ -47,7 +47,7 @@ conditions = {"UD_English-GENTLE": (lambda meta: "meta::speakerCount" in meta,
 													meta["sent_id"].startswith("p") or \
 													meta["sent_id"].startswith("s")),
 			"UD_Western_Sierra_Puebla_Nahuatl-ITML": (lambda meta: "sent_id" in meta,
-													lambda meta: "Frog-Story" in meta["sent_id"])
+													lambda meta: "Frog_Story" in meta["sent_id"])
 			}
 
 
