@@ -1,3 +1,6 @@
 [submodule "source/UD_English-GENTLE"]
 	path = source/UD_English-GENTLE
 	url = git@github.com:UniversalDependencies/UD_English-GENTLE.git
+[submodule "UD_Northwest_Gbaya-Autogramm"]
+	path = UD_Northwest_Gbaya-Autogramm
+	url = https://github.com/UniversalDependencies/UD_Northwest_Gbaya-Autogramm/
