@@ -11,7 +11,7 @@ conditions = {"UD_English-GENTLE": (lambda meta: "meta::speakerCount" in meta,
 for treebank in conditions:
 	print(f"Reading treebank {treebank}...")
 	source_path = f"{sys.argv[1]}/{treebank}/"
-	destination_path = f"destination/{treebank}"
+	destination_path = f"{sys.argv[2]}/{treebank}"
 	pathlib.Path(destination_path).mkdir(parents=True, exist_ok=True)
 
 
