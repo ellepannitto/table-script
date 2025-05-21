@@ -4,3 +4,21 @@
 [submodule "UD_Northwest_Gbaya-Autogramm"]
 	path = UD_Northwest_Gbaya-Autogramm
 	url = https://github.com/UniversalDependencies/UD_Northwest_Gbaya-Autogramm/
+[submodule "source/UD_English-GUM"]
+	path = source/UD_English-GUM
+	url = git@github.com:UniversalDependencies/UD_English-GUM.git
+[submodule "source/UD_Greek-GDT"]
+	path = source/UD_Greek-GDT
+	url = git@github.com:UniversalDependencies/UD_Greek-GDT.git
+[submodule "source/UD_Highland_Puebla_Nahuatl-ITML"]
+	path = source/UD_Highland_Puebla_Nahuatl-ITML
+	url = git@github.com:UniversalDependencies/UD_Highland_Puebla_Nahuatl-ITML.git
+[submodule "source/UD_Scottish_Gaelic-ARCOSG"]
+	path = source/UD_Scottish_Gaelic-ARCOSG
+	url = git@github.com:UniversalDependencies/UD_Scottish_Gaelic-ARCOSG.git
+[submodule "source/UD_Western_Sierra_Puebla_Nahuatl-ITML"]
+	path = source/UD_Western_Sierra_Puebla_Nahuatl-ITML
+	url = git@github.com:UniversalDependencies/UD_Western_Sierra_Puebla_Nahuatl-ITML.git
+[submodule "source/UD_Hebrew-IAHLTknesset"]
+	path = source/UD_Hebrew-IAHLTknesset
+	url = git@github.com:UniversalDependencies/UD_Hebrew-IAHLTknesset.git
