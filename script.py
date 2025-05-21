@@ -26,7 +26,6 @@ spoken_only = ["UD_Abaza-ATB",
 	"UD_Naija-NSC",
 	"UD_Nayini-AHA",
 	"UD_Northwest_Gbaya-Autogramm",
-	"UD_Norwegian-Nynorsk",
 	"UD_Pesh-ChibErgIS",
 	"UD_Slovenian-SST",
 	"UD_Soi-AHA",
@@ -46,7 +45,7 @@ conditions = {"UD_English-GENTLE": (lambda meta: "meta::speakerCount" in meta,
 										lambda meta: meta["sent_id"].startswith("c") or \
 													meta["sent_id"].startswith("n") or \
 													meta["sent_id"].startswith("p") or \
-													meta["sent_id"].startswith("x")),
+													meta["sent_id"].startswith("s")),
 			"UD_Western_Sierra_Puebla_Nahuatl-ITML": (lambda meta: "label" in meta,
 													lambda meta: "frog-story" in meta["label"])
 			}
