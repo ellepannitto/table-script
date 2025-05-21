@@ -91,4 +91,4 @@ for treebank in conditions:
 				else:
 					if condition:
 						print(sentence.serialize().strip(), file=fout)
-				print("", file=fout)
+			print("", file=fout)
