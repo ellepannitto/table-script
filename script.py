@@ -85,10 +85,10 @@ for treebank in conditions:
 				if fun1(metadata):
 					if fun2(metadata):
 						condition = True
-						print(sentence.serialize().strip(), file=fout)
+						fout.write(sentence.serialize())
 					else:
 						condition = False
 				else:
 					if condition:
-						print(sentence.serialize().strip(), file=fout)
-			print("", file=fout)
+						fout.write(sentence.serialize())
+			# print("", file=fout)
