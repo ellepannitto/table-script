@@ -31,7 +31,13 @@ spoken_only = ["UD_Abaza-ATB",
 	"UD_Soi-AHA",
 	"UD_Spanish-COSER",
 	"UD_Turkish_German-SAGT",
-	"UD_Zaar-Autogramm"]
+	"UD_Zaar-Autogramm",
+	"UD_Bokota-ChibErgIS",
+	"UD_English-CHILDES",
+	"UD_Greek-Cretan",
+	"UD_Ika-ChibErgIS",
+	"UD_Nenets-Tundra"
+	]
 
 conditions = {"UD_English-GENTLE": (lambda meta: "meta::speakerCount" in meta,
 									lambda meta: int(meta["meta::speakerCount"])>0),
